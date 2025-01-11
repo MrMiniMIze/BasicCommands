@@ -1,0 +1,43 @@
+name: BasicCommands
+main: me.minimize.basiccommands.BasicCommands
+version: 1.0.0
+api-version: 1.21
+author: "Minimize & minimize0x"
+
+commands:
+  gamemode:
+    description: Sets a player's game mode.
+    usage: /gamemode <type> [player]
+    permission: basiccommands.gamemode
+  god:
+    description: Toggles god mode on a player.
+    usage: /god [player]
+    permission: basiccommands.god
+  openinv:
+    description: Opens a player's inventory.
+    usage: /openinv <player>
+    permission: basiccommands.openinv
+  enderchest:
+    description: Opens a player's ender chest.
+    usage: /enderchest [player]
+    permission: basiccommands.enderchest
+  fix:
+    description: Repairs the item in your main hand.
+    usage: /fix
+    permission: basiccommands.fix
+  tpa:
+    description: Sends a teleport request to a player.
+    usage: /tpa <player>
+    permission: basiccommands.tpa
+  tpaccept:
+    description: Accepts a pending TPA request.
+    usage: /tpaccept
+    permission: basiccommands.tpa
+  tpdeny:
+    description: Denies a pending TPA request.
+    usage: /tpdeny
+    permission: basiccommands.tpa
+  trash:
+    description: Opens a trash menu to dispose of items.
+    usage: /trash
+    permission: basiccommands.trash

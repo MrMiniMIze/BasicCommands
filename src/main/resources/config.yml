@@ -1,0 +1,76 @@
+##############################################################################
+#  BasicCommands by Minimize & minimize0x
+#  This plugin provides a set of common utility commands for Minecraft:
+#   - /gamemode
+#   - /god
+#   - /openinv
+#   - /enderchest
+#   - /fix
+#   - /tpa, /tpaccept, /tpdeny
+#   - /trash
+#
+#  Feel free to customize all messages below to fit your server’s style!
+##############################################################################
+
+messages:
+  ############################################################
+  #  GLOBAL / GENERAL
+  ############################################################
+  no-permission: "&cYou do not have permission to use this command!"
+  player-only-command: "&cThis command is only available to players!"
+  player-not-found: "&cPlayer not found!"
+
+  ############################################################
+  #  GAMEMODE COMMAND
+  ############################################################
+  invalid-gamemode: "&cInvalid gamemode. Use: survival, creative, adventure, or spectator."
+  gamemode-updated: "&aYour game mode has been updated to %gamemode%."
+  gamemode-updated-other: "&aYou have updated %player%'s game mode to %gamemode%."
+
+  ############################################################
+  #  GOD MODE
+  ############################################################
+  god-enabled: "&aGod mode enabled."
+  god-disabled: "&cGod mode disabled."
+  god-enabled-other: "&aGod mode enabled for %player%."
+  god-disabled-other: "&cGod mode disabled for %player%."
+
+  ############################################################
+  #  OPEN INV / ENDER CHEST
+  ############################################################
+  inventory-opened: "&aYou have opened %player%'s inventory."
+  enderchest-opened: "&aYou have opened %player%'s ender chest."
+
+  ############################################################
+  #  FIX COMMAND
+  ############################################################
+  fix-success: "&aItem successfully repaired!"
+
+  ############################################################
+  #  TPA SYSTEM (tpa, tpaccept, tpdeny)
+  ############################################################
+
+  # Message for the player who sent /tpa
+  tpa-request-sent: |
+    &a-----------------------------------------
+    &7You sent a teleport request to &a%player%.
+    &7They can &a/tpaccept &7or &a/tpdeny &7your request.
+    &a-----------------------------------------
+
+  # Message for the target receiving the /tpa
+  tpa-request-received: |
+    &a-----------------------------------------
+    &7You have received a teleport request from &a%player%.
+    &7Type &a/tpaccept &7to accept or &a/tpdeny &7to deny.
+    &a-----------------------------------------
+
+  no-tpa-request: "&cYou have no pending TPA request."
+  tpa-accepted: "&aYou have accepted %player%'s request. Teleporting them to you..."
+  tpa-accepted-sender: "&aYour teleport request to %player% was accepted!"
+  tpa-denied: "&cYou have denied %player%'s request."
+  tpa-denied-sender: "&cYour teleport request to %player% was denied!"
+
+  ############################################################
+  #  TRASH COMMAND
+  ############################################################
+  trash-opened: "&aTrash menu opened! Anything placed here will be removed when you close."

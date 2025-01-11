@@ -1,0 +1,11 @@
+me/minimize/basiccommands/commands/GodCommand.class
+me/minimize/basiccommands/commands/TpdenyCommand.class
+me/minimize/basiccommands/commands/OpenInvCommand.class
+me/minimize/basiccommands/commands/TpacceptCommand.class
+me/minimize/basiccommands/BasicCommands.class
+me/minimize/basiccommands/commands/EnderchestCommand.class
+me/minimize/basiccommands/commands/GamemodeCommand.class
+me/minimize/basiccommands/commands/FixCommand.class
+me/minimize/basiccommands/commands/TrashCommand.class
+me/minimize/basiccommands/listeners/GodListener.class
+me/minimize/basiccommands/commands/TpaCommand.class
